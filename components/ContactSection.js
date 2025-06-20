@@ -33,7 +33,7 @@ export default function ContactSection() {
         <div className={contactStyles.newsletterContainer}>
           <h2 className={contactStyles.newsletterHeading}>NEWSLETTER</h2>
           <p className={contactStyles.newsletterText}>
-            Subscribe to our newsletter to explore the world of York Paris with its timeless creations and stories of exceptional design.
+            Subscribe to our newsletter to explore the world of Your Brand with its timeless creations and stories of exceptional design.
           </p>
           <form
             className={contactStyles.newsletterForm}

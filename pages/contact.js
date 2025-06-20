@@ -32,7 +32,7 @@ export default function Contact() {
         <div className={styles.newsletterContainer}>
           <h2 className={styles.newsletterHeading}>NEWSLETTER</h2>
           <p className={styles.newsletterText}>
-            Subscribe to our newsletter to explore the world of York Paris with its timeless creations and stories of exceptional design.
+            Subscribe to our newsletter to explore the world of Your Brand with its timeless creations and stories of exceptional design.
           </p>
           <form className={styles.newsletterForm} onSubmit={(e) => e.preventDefault()}>
             <input
