@@ -74,11 +74,11 @@ export default function NavBar() {
 
           {/* Center: brand name */}
           <Link href="/" className={styles.brand}>
-            York Paris
+            Your Brand
           </Link>
 
           {/* Right: phone icon */}
-          <a href="tel:+19546002311" className={styles.iconButton}>
+          <a href="tel:+11234567890" className={styles.iconButton}>
             <Phone size={24} strokeWidth={1} />
           </a>
         </div>

@@ -17,14 +17,14 @@ export default function ContactSection() {
         <div className={contactStyles.contactItems}>
           <div className={contactStyles.contactItem}>
             <Mail size={20} className={contactStyles.icon} />
-            <a href="mailto:leonardo.ortegon@gmail.com" className={contactStyles.contactLink}>
+            <a href="mailto:contact@yourbrand.com" className={contactStyles.contactLink}>
               Send us an Email
             </a>
           </div>
           <div className={contactStyles.contactItem}>
             <Phone size={20} className={contactStyles.icon} />
-            <a href="tel:+19546002311" className={contactStyles.contactLink}>
-              +1-954-600-2311
+            <a href="tel:+11234567890" className={contactStyles.contactLink}>
+              +1-123-456-7890
             </a>
           </div>
         </div>

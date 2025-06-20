@@ -22,8 +22,8 @@ export default function Contact() {
           </div>
           <div className={styles.contactItem}>
             <Phone size={20} className={styles.icon} />
-            <a href="tel:+19546002311" className={styles.contactLink}>
-              +1-954-600-2311
+            <a href="tel:+11234567890" className={styles.contactLink}>
+              +1-123-456-7890
             </a>
           </div>
         </div>

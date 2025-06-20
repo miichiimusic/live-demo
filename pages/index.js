@@ -189,7 +189,7 @@ export default function Home() {
       placeholder="empty"
     />
     <Link href="/contact" className={styles.textLink}>
-    <h2 className={styles.featureHeading}>The York Paris Philosophy</h2>
+    <h2 className={styles.featureHeading}>Our Philosophy</h2>
     <p className={styles.featureText}>
       We are built on refined simplicity, thoughtful design, and personal meaning. Each piece is made to last, feel intentional, and speak to the individual who wears it.
     </p>
