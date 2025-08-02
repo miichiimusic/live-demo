@@ -1,5 +1,5 @@
 // components/NavBar.js
-/* eslint-disable @next/next/no-img-element */
+
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Menu, Phone } from 'lucide-react';
@@ -77,9 +77,9 @@ export default function NavBar() {
           </Link>
 
           {/* Right: phone icon */}
-          <a href="/contact" className={styles.iconButton}>
+          <Link href="/contact" className={styles.iconButton}>
             <Phone size={24} strokeWidth={1} />
-          </a>
+          </Link>
         </div>
       </header>
 
