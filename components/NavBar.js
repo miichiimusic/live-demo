@@ -18,7 +18,6 @@ export default function NavBar() {
     { href: '/about', label: 'About' },
     { href: '/process', label: 'Process' },
     { href: '/contact', label: 'Contact' },
-    { href: '/education', label: 'Education' },
   ];
   // Replace with an actual image path in /public
   const imageSrc = '/new_hero_image.jpg';
@@ -74,11 +73,11 @@ export default function NavBar() {
 
           {/* Center: brand name */}
           <Link href="/" className={styles.brand}>
-            Your Brand
+            éclat by HKM
           </Link>
 
           {/* Right: phone icon */}
-          <a href="tel:+11234567890" className={styles.iconButton}>
+          <a href="/contact" className={styles.iconButton}>
             <Phone size={24} strokeWidth={1} />
           </a>
         </div>

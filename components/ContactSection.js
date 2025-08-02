@@ -17,38 +17,35 @@ export default function ContactSection() {
         <div className={contactStyles.contactItems}>
           <div className={contactStyles.contactItem}>
             <Mail size={20} className={contactStyles.icon} />
-            <a href="mailto:contact@yourbrand.com" className={contactStyles.contactLink}>
-              Send us an Email
-            </a>
-          </div>
-          <div className={contactStyles.contactItem}>
-            <Phone size={20} className={contactStyles.icon} />
-            <a href="tel:+11234567890" className={contactStyles.contactLink}>
-              +1-123-456-7890
+            <a href="mailto:contact@eclatbyhkm.com" className={contactStyles.contactLink}>
+              contact@eclatbyhkm.com
             </a>
           </div>
         </div>
 
         {/* Newsletter block */}
-        <div className={contactStyles.newsletterContainer}>
-          <h2 className={contactStyles.newsletterHeading}>NEWSLETTER</h2>
-          <p className={contactStyles.newsletterText}>
-            Subscribe to our newsletter to explore the world of Your Brand with its timeless creations and stories of exceptional design.
-          </p>
-          <form
-            className={contactStyles.newsletterForm}
-            onSubmit={(e) => e.preventDefault()}
-          >
-            <input
-              type="email"
-              placeholder="Email Address"
-              className={contactStyles.newsletterInput}
-            />
-            <button type="submit" className={contactStyles.newsletterButton}>
-              SUBSCRIBE
-            </button>
-          </form>
-        </div>
+<div className={contactStyles.newsletterContainer}>
+  <h2 className={contactStyles.newsletterHeading}>NEWSLETTER</h2>
+  <p className={contactStyles.newsletterText}>
+    Subscribe to our newsletter to explore the world of Your Brand with its timeless creations and stories of exceptional design.
+  </p>
+  <form
+    className={contactStyles.newsletterForm}
+    action="https://formspree.io/f/xvgqbzey"
+    method="POST"
+  >
+    <input
+      type="email"
+      name="email"
+      placeholder="Email Address"
+      className={contactStyles.newsletterInput}
+      required
+    />
+    <button type="submit" className={contactStyles.newsletterButton}>
+      SUBSCRIBE
+    </button>
+  </form>
+</div>
       </div>
     </section>
   );

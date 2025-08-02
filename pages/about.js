@@ -1,5 +1,3 @@
-// pages/about.js
-
 import Image from 'next/image';
 import ContactSection from '../components/ContactSection';
 import styles from '../styles/About.module.css';
@@ -17,8 +15,10 @@ export default function AboutPage() {
       {/* ===== Single About Item ===== */}
       <div className={styles.aboutContainer}>
         <div className={styles.aboutItem}>
+          <h3 className={styles.smallHeading}>Hannah Keelin MacDonald</h3>
+            <h4 className={styles.smallSubheading}>Founder | éclat by HKM</h4>
           <Image
-            src="/bio_photo.jpg"       /* put /about1.jpg into /public/ */
+            src="/bio_photo.jpeg"       /* put /about1.jpg into /public/ */
             alt="Our Origin"
             quality={100}
             width={600}
@@ -28,11 +28,47 @@ export default function AboutPage() {
           />
           <div className={styles.aboutText}>
             <p>
-              Jewelry has always felt different to me — more personal, more permanent, more symbolic than anything else I wear. As someone who expresses so much through fashion, I’ve always seen jewelry as the quiet detail that says the most.Over time, sharing my style online turned into something much deeper. I started getting messages not just about what I was wearing, but how people could create something like it for themselves — something unique, something meaningful. That’s when the idea really started to take shape. I didn’t want to just recommend jewelry — I wanted to help people design it.
+              My name is Hannah Keelin MacDonald and I created Éclat by HKM to share my passion for the art of fashion through curated, customizable jewelry pieces designed to fit any moment.
             </p>
             <p>
-              To make this possible, I partnered with Gemsite, a jewelry manufacturer known for its excellence in craftsmanship and its unique structure: a set of specialized divisions, each focused on one part of the process — 3D design, machine casting, expert stone setting and global sourcing for high-quality diamonds and gemstones.I work closely with their team on every design, and together we’re able to offer something truly personal — jewelry that reflects your style, your story, or a moment you want to hold onto.
+              As a professional model, I have always felt the right piece of jewelry was the most important part of any outfit. Each piece of jewelry I own and wear has a story, memory or sacred moment attached to it that I am reminded of every time I put it on that makes it more than just an accessory.
             </p>
+            <p>
+              With Éclat by HKM, it is my desire help people find the perfect piece of jewelry that is more than just a beautiful ring, necklace or bracelet, but also serves as a reminder of a significant and special memory.
+            </p>
+
+            {/* ===== Additional Content ===== */}
+            <h3 className={styles.smallHeading}>Precious Moments Jewelers, Inc</h3>
+            <h4 className={styles.smallSubheading}>Our manufacturing team</h4>
+            <Image
+              src="/pmj.jpg"
+              alt="Descriptive Extra"
+              quality={100}
+              width={600}
+              height={400}
+              className={styles.aboutImage}
+            />
+            <p>
+              Hannah Keelin MacDonald taps into Precious Moments Jewelers as her behind-the-scenes manufacturing team. Handling everything from custom CAD design and casting to stone setting, polishing, and final delivery. Each design is produced in close collaboration with the experienced jewelers at PMJ, ensuring a high standard of quality and craftsmanship throughout the process.
+            </p>
+            <p>
+              Precious Moments Jewelers is a family-owned business based in Margate, Florida, known for over three decades of trusted service and expertise in fine jewelry and watchmaking. Founded in 1988, the store continues to support both individual customers and emerging jewelry brands with professional, in-house production.
+            </p>
+            <h5 className={styles.smallHeading}>Precious Moments Jewelers Reviews</h5>
+            <div className={styles.imageGrid}>
+              {[1, 2, 3, 4, 5, 6].map((i) => (
+                <Image
+                  key={i}
+                  src={`/extra_image_${i}.png`}
+                  alt={`Extra image ${i}`}
+                  quality={100}
+                  width={200}
+                  height={200}
+                  unoptimized 
+                  className={styles.gridImage}
+                />
+              ))}
+            </div>
           </div>
         </div>
       </div>

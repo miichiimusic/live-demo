@@ -54,7 +54,7 @@ export default function Process() {
         <p className={styles.bannerSubtitle}>
           A thoughtful, guided process that transforms your vision into a timeless piece of jewelry.
         </p>
-        <Link href="#get-started" className={styles.ctaLink}>
+        <Link href="/contact" className={styles.ctaLink}>
           START YOUR DESIGN
         </Link>
       </section>

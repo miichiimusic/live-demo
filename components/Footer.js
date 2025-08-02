@@ -18,9 +18,6 @@ export default function Footer() {
           <Link href="/process" className={styles.link}>
             Process
           </Link>
-          <Link href="/education" className={styles.link}>
-            Education
-          </Link>
           <Link href="/contact" className={styles.link}>
             Contact
           </Link>
@@ -28,7 +25,7 @@ export default function Footer() {
 
         {/* Right: simple copyright */}
         <div className={styles.copy}>
-          © {new Date().getFullYear()} Your Brand. All rights reserved.
+          © {new Date().getFullYear()} éclat by HKM. All rights reserved.
         </div>
       </div>
     </footer>

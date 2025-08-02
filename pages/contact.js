@@ -16,14 +16,8 @@ export default function Contact() {
         <div className={styles.contactItems}>
           <div className={styles.contactItem}>
             <Mail size={20} className={styles.icon} />
-            <a href="mailto:info@example.com" className={styles.contactLink}>
-              Send us an Email
-            </a>
-          </div>
-          <div className={styles.contactItem}>
-            <Phone size={20} className={styles.icon} />
-            <a href="tel:+11234567890" className={styles.contactLink}>
-              +1-123-456-7890
+            <a href="mailto:contact@eclatbyhkm.com" className={styles.contactLink}>
+              contact@eclatbyhkm.com
             </a>
           </div>
         </div>
